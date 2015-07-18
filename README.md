@@ -14,7 +14,7 @@ Command line: `'$ ./runit.sh`
 **Conditions:**
 
 *Versions:*
-Python: 2.6
+Python: 2.6  
 PyPy: 2.4
 
 *Handling differences between specs*
