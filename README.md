@@ -16,7 +16,7 @@ Python: 2.6
 PyPy: 2.4
 
 *Handling differences between specs:*  
-Theoretically, testing a container for membership should be fastest in with *set* or especially *frozenset*.  So, to attempt to get a more apples-to-apples comparison, I will calculate a % difference between each result and the fastest result for that set.
+Theoretically, testing a container for membership should be fastest in with *set*, *frozenset*, or *dict*.  To attempt to get a more apples-to-apples comparison, I will calculate a % difference between each result and the fastest result for that set.
 
 **Time Complexity:**  
 
