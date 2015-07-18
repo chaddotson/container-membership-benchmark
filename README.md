@@ -18,17 +18,19 @@ PyPy: 2.4
 *Handling differences between specs:*  
 Theoretically, testing a container for membership should be fastest in with *set* or especially *frozenset*.  So, to attempt to get a more apples-to-apples comparison, I will calculate a % difference between each result and the fastest result for that set.
 
-**System Specs:**
+**Time Complexity:**  
 
-*Machine 1:*  
-OS: OSX Yosemite  
-CPU: 2.3 GHz Intel Core i7  
-MEMORY: 16 GB  
+| Type      | Average |  Worst  |
+|-----------|---------|---------|
+|   list    |  O(n)   |         |
+|    set    |  O(1)   |  O(n)   |
+| frozenset |  O(1)   |  O(n)   |
+|    dict   |  O(1)   |  O(n)   |
 
-*Machine 2:*  
-OS: Ubuntu 14.04  
-CPU: AMD Phenom 9850 x4 2.5 GHz  
-MEMORY: 4 GB
+*Note:*  
+The time complexity of the set/dict type can be compromised if the hashing algorithm isn't sufficient.
+
+[Python Time Complexity](https://wiki.python.org/moin/TimeComplexity "Time Complexity")
 
 
 **Results:**
@@ -59,6 +61,18 @@ MEMORY: 4 GB
 | frozenset |       0.25 |    0.25 |        0.000 |
 | dict      |       0.26 |         |        3.922 |
 
+
+**System Specs:**
+
+*Machine 1:*  
+OS: OSX Yosemite  
+CPU: 2.3 GHz Intel Core i7  
+MEMORY: 16 GB  
+
+*Machine 2:*  
+OS: Ubuntu 14.04  
+CPU: AMD Phenom 9850 x4 2.5 GHz  
+MEMORY: 4 GB
 
 **Raw Results:**
 
