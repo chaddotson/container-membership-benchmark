@@ -3,7 +3,7 @@ This repo contains code to test container membership.  Namely the "in" operator.
 
 **Objective:**
 
-I constructed these scripts to test and quantify speed inconsistences between platforms due to implementation differences.
+I constructed these scripts to test and quantify speed inconsistences between platforms due to compilation and/or implementation differences.
 
 **Running the Benchmarks:**
 
