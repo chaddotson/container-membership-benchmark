@@ -1,7 +1,5 @@
 # container-membership-benchmark
-This repo contains code to test container membership.  Namely the "in" operator.
-
-This repo includes benchmarks for a list, set, frozenset and dict implementation.  This will execute using both the default python interpretor and pypy (if installed).
+This repo contains code to test container membership.  Namely the "in" operator.  It includes benchmarks for a list, set, frozenset and dict implementation.  This will execute using both the default python interpretor and pypy (if installed).
 
 **Objective:**
 
