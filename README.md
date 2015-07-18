@@ -7,7 +7,7 @@ I constructed these scripts to test and quantify speed inconsistences between pl
 
 **Running the Benchmarks:**
 
-Command line: `'$ ./runit.sh`
+Command line: `$ ./runit.sh`
 
 **Conditions:**
 
