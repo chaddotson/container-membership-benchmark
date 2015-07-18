@@ -66,11 +66,13 @@ The time complexity of the set/dict type can be compromised if the hashing algor
 
 *Machine 1:*  
 OS: OSX Yosemite  
+COMPILER: clang-600.0.39
 CPU: 2.3 GHz Intel Core i7  
 MEMORY: 16 GB  
 
 *Machine 2:*  
 OS: Ubuntu 14.04  
+COMPILER: GCC 4.8.2
 CPU: AMD Phenom 9850 x4 2.5 GHz  
 MEMORY: 4 GB
 
